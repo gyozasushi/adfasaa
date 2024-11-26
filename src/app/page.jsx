@@ -74,7 +74,7 @@ export default function Home() {
                     </div>
 
                     {/* Video Playback */}
-                    <div className="relative sm:mt-3 m-3 pt-[2rem] w-[20rem] h-[50vh] sm:mb-4 sm:mb-0">
+                    <div className="relative sm:mt-3 m-3 pt-[2rem] w-[10rem] h-[25vh] sm:mb-4 sm:mb-0">
                         {videoSources.map((src, index) => (
                             <video
                                 key={index}
